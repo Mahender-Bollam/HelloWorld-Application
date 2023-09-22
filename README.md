@@ -46,6 +46,9 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
+## Screenshots & Videos
+https://github.com/Mahender-Bollam/HelloWorld-Application/assets/135100654/91c89b26-56a0-4c47-a41f-2cd7a859693f
+
 ## Step 3: Modifying your App
 
 Now that you have successfully run the app, let's modify it.
