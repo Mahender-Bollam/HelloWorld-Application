@@ -1,10 +1,52 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## Hello World Application - React Native Application
 
-# Getting Started
+### Table of Content
+[About the Project](#about-the-project)\
+[Screenshots](#screenshots)\
+[Tech stack](#tech-stack)\
+[Setup and Installation](#setup-and-installation)\
+[Project Status](#project-status)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### About the Project
+A React Native Hello world application renders a text with the content "Hello World".
 
-## Step 1: Start the Metro Server
+### Screenshots
+https://github.com/Mahender-Bollam/HelloWorld-Application/assets/135100654/91c89b26-56a0-4c47-a41f-2cd7a859693f
+
+
+### Tech stack
+
+REACT NATIVE\
+TYPESCRIPT\
+RUBY\
+NODE
+
+### Setup and Installation
+
+#### Initial Setup
+Create a folder for to work in.
+
+mkdir HelloWorldApp\
+cd HelloWorldApp
+
+### Setup Environment
+Installing dependencies
+
+``` bash
+brew install node
+brew install watchman
+```
+```bash 
+brew install ruby
+brew install cocoapods
+```
+#### To install the Application, follow these steps:
+
+Navigate to the project directory: cd HelloWorldApp\
+Install dependencies: npm install\
+Clone the repository: https://github.com/Mahender-Bollam/HelloWorld-Application.git
+
+j### Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -18,11 +60,11 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+### Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
+#### For Android
 
 ```bash
 # using npm
@@ -32,7 +74,7 @@ npm run android
 yarn android
 ```
 
-### For iOS
+#### For iOS
 
 ```bash
 # using npm
@@ -46,32 +88,19 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Screenshots & Videos
-https://github.com/Mahender-Bollam/HelloWorld-Application/assets/135100654/91c89b26-56a0-4c47-a41f-2cd7a859693f
+### Project Status
+Completed 
 
-## Step 3: Modifying your App
+### License: ©️
+@author Mahender Bollam\
+GitHub Profile: Mahender-Bollam\
+Email id: mahender.bollam@everest.engineering
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
+### Troubleshooting
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
+### Learn More
 
 To learn more about React Native, take a look at the following resources:
 
